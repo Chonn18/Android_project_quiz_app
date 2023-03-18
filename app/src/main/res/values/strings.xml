@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">quizz</string>
+    <string name="forgot_pass">Fogot password ?</string>
 </resources>

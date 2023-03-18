@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184"
+        app:srcCompat="@drawable/people" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="352dp"
+        android:layout_height="191dp"
+        android:background="@drawable/frameplaintext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dblogin"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:background="@drawable/orangeframetext"
+        android:fontFamily="@font/imprima"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <TextView
+        android:id="@+id/btn_dbsignup"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/imprima"
+        android:shadowColor="#FD2B2B"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#FD2B2B"
+        android:textSize="16sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dblogin"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/imprima"
+        android:text="Take part in challenges with friends "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="165dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/imprima"
+        android:text="Don't have an account? "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dblogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,10 @@
-package com.project.quizz;
+package com.project.quizz.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.project.quizz.R;
 
 public class MainActivity extends AppCompatActivity {
 
